@@ -1,0 +1,130 @@
+[ ERROR 2017-07-04 14:56:33,583 ]: Error performing conversion
+java.lang.NullPointerException
+	at com.intuit.ctg.tpsconv.pool.impl.PoolUtils.convert(PoolUtils.java:72)
+	at com.intuit.ctg.tpsconv.pool.impl.PoolUtils.main(PoolUtils.java:37)
+[ INFO 2017-07-04 14:58:13,131 ]: 59aa9c9d-2284-4add-9919-2f07471fe6aa : TPSConv initialized
+[ INFO 2017-07-04 14:58:13,501 ]: Conversion completed, ERROR code : 10508 : data size = 0
+[ INFO 2017-07-04 14:58:13,501 ]: Error Context : 
+Unexpected TPS exception: (10508)
+zpExceptionBase: error code = 10508 source file = D:\TPS\TY16\SEASON\00-build\src\high\ss\Pip\zpipXMLParser.cpp, line 175{
+   "BackTrace" : {
+      "Modules" : [
+         {
+            "BaseAddress" : "0x00eb0000",
+            "MolduleName" : "C:\\W2-1099-Reporter\\tpsconv.exe"
+         }
+      ],
+      "Stack" : [
+         "0x011005c9",
+         "0x010fbd30",
+         "0x010fb247",
+         "0x010f9f00",
+         "0x00fb7309",
+         "0x00fb75c6",
+         "0x00f936ac",
+         "0x00f97151",
+         "0x00f956ad",
+         "0x00efc5a0",
+         "0x00ef8cb5",
+         "0x00f0baba",
+         "0x0137196c",
+         "0x75cf336a",
+         "0x77da9902",
+         "0x77da98d5"
+      ]
+   },
+   "ErrorCode" : 10508,
+   "Message" : "",
+   "Properties" : [
+      {
+         "Name" : "ErrorCode",
+         "SourceFile" : "D:\\TPS\\TY16\\SEASON\\00-build\\src\\high\\ss\\Pip\\zpipXMLParser.cpp",
+         "SourceLine" : 175,
+         "Value" : "10508",
+         "ValueType" : 30
+      }
+   ],
+   "SourceFile" : "D:\\TPS\\TY16\\SEASON\\00-build\\src\\high\\ss\\Pip\\zpipXMLParser.cpp",
+   "SourceLine" : 175,
+   "Type" : "class Intuit::Ctg::Pta::ComponentFrameworkException *"
+}
+
+zpCStringContext: string = ExceptionBase: error code =  7000 source file = D:\TPS\TY16\SEASON\00-build\src\tccp-c\shared\Xml\XMLDOMParserWrapper.cpp, line 126
+CStringContext: string = comment or processing instruction expected
+ Inherited info follows
+ErrorContextBase: source file = D:\TPS\TY16\SEASON\00-build\src\tccp-c\shared\Xml\XMLDOMParserWrapper.cpp, line 126
+
+ Inherited info follows
+zpErrorContextBase: source file = D:\TPS\TY16\SEASON\00-build\src\high\ss\Pip\zpipXMLParser.cpp, line 176
+zpErrorContextBase: source file = D:\TPS\TY16\SEASON\00-build\src\high\fe\Facades\zfeXMLPDFGenerator.cpp, line 577
+
+</ERROR_CONTEXT>
+
+[ ERROR 2017-07-04 14:58:13,503 ]: Unexpected TPS exception: (10508)
+zpExceptionBase: error code = 10508 source file = D:\TPS\TY16\SEASON\00-build\src\high\ss\Pip\zpipXMLParser.cpp, line 175{
+   "BackTrace" : {
+      "Modules" : [
+         {
+            "BaseAddress" : "0x00eb0000",
+            "MolduleName" : "C:\\W2-1099-Reporter\\tpsconv.exe"
+         }
+      ],
+      "Stack" : [
+         "0x011005c9",
+         "0x010fbd30",
+         "0x010fb247",
+         "0x010f9f00",
+         "0x00fb7309",
+         "0x00fb75c6",
+         "0x00f936ac",
+         "0x00f97151",
+         "0x00f956ad",
+         "0x00efc5a0",
+         "0x00ef8cb5",
+         "0x00f0baba",
+         "0x0137196c",
+         "0x75cf336a",
+         "0x77da9902",
+         "0x77da98d5"
+      ]
+   },
+   "ErrorCode" : 10508,
+   "Message" : "",
+   "Properties" : [
+      {
+         "Name" : "ErrorCode",
+         "SourceFile" : "D:\\TPS\\TY16\\SEASON\\00-build\\src\\high\\ss\\Pip\\zpipXMLParser.cpp",
+         "SourceLine" : 175,
+         "Value" : "10508",
+         "ValueType" : 30
+      }
+   ],
+   "SourceFile" : "D:\\TPS\\TY16\\SEASON\\00-build\\src\\high\\ss\\Pip\\zpipXMLParser.cpp",
+   "SourceLine" : 175,
+   "Type" : "class Intuit::Ctg::Pta::ComponentFrameworkException *"
+}
+
+zpCStringContext: string = ExceptionBase: error code =  7000 source file = D:\TPS\TY16\SEASON\00-build\src\tccp-c\shared\Xml\XMLDOMParserWrapper.cpp, line 126
+CStringContext: string = comment or processing instruction expected
+ Inherited info follows
+ErrorContextBase: source file = D:\TPS\TY16\SEASON\00-build\src\tccp-c\shared\Xml\XMLDOMParserWrapper.cpp, line 126
+
+ Inherited info follows
+zpErrorContextBase: source file = D:\TPS\TY16\SEASON\00-build\src\high\ss\Pip\zpipXMLParser.cpp, line 176
+zpErrorContextBase: source file = D:\TPS\TY16\SEASON\00-build\src\high\fe\Facades\zfeXMLPDFGenerator.cpp, line 577
+
+</ERROR_CONTEXT>
+
+[ INFO 2017-07-04 14:59:20,516 ]: 6f94f1bc-fdca-412e-ab9a-3fd7f1025682 : TPSConv initialized
+[ INFO 2017-07-04 15:00:05,070 ]: bb30ca66-5b1f-4ab5-acbc-ba1bdd213018 : TPSConv initialized
+[ INFO 2017-07-04 15:00:05,426 ]: Conversion completed, ERROR code : 0 : data size = 76701
+[ INFO 2017-07-04 15:00:05,445 ]: Conversion success...
+[ INFO 2017-07-04 15:00:45,500 ]: 6aafb582-c639-4176-91e8-0a1a0c82978f : TPSConv initialized
+[ INFO 2017-07-04 15:00:45,871 ]: Conversion completed, ERROR code : 0 : data size = 28326
+[ INFO 2017-07-04 15:00:45,886 ]: Conversion success...
+[ INFO 2017-07-04 15:01:14,855 ]: 30e87b56-52bb-469d-91af-8f2c09a8dfd0 : TPSConv initialized
+[ INFO 2017-07-04 15:01:15,272 ]: Conversion completed, ERROR code : 0 : data size = 50261
+[ INFO 2017-07-04 15:01:15,308 ]: Conversion success...
+[ INFO 2017-07-04 15:07:34,744 ]: 00096be3-377f-47be-8e41-617f76ee687b : TPSConv initialized
+[ INFO 2017-07-04 15:07:35,071 ]: Conversion completed, ERROR code : 0 : data size = 50261
+[ INFO 2017-07-04 15:07:35,088 ]: Conversion success...

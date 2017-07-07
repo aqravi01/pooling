@@ -1,0 +1,31 @@
+<settings>
+	<servers>
+		<server>
+			<id>release-deploy-repo</id>
+			<username>upandrunning</username>
+			<password>r7x6x4v2r0</password>
+		</server>
+		<server>
+			<id>snapshot-deploy-repo</id>
+			<username>upandrunning</username>
+			<password>r7x6x4v2r0</password>
+		</server>
+		<server>
+			<id>cg-maven-docs</id>
+			<username>doc</username>
+			<password>cgdodocs</password>
+		</server>
+    <server>
+      <id>sdperforcend1.bos.intuit.com:4000</id>
+      <username>build_maven</username>
+      <password>build_maven</password>
+    </server>
+	</servers>
+	<mirrors>
+		<mirror>
+			<id>central-mirror</id>
+			<url>http://ctg-cache-repo.corp.intuit.net/nexus/content/groups/public</url>
+			<mirrorOf>*</mirrorOf>
+		</mirror>
+	</mirrors>
+</settings>
